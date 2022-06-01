@@ -9,74 +9,33 @@
 </head>
 <body>
     <nav>
-        <img src="logo.png" alt="logo" width="50px" >
-        <button><img src="signin.png" alt="signin" width="20px"> Sign In</button>
+        <img src="image/logo.png" alt="logo" width="50px" >
+        <button class="s-in-btn"><img src= "image/signin.png" alt="signin" width="20px"> Sign In</button>
     </nav>
+    <div class="reg">
+      <h2>Sign Up</h2>
+      <label>First Name: </label><br/>
+      <input type="text" name="name" placeholder="First Name" id="name"><br/>
+      <label>Last Name: </label><br/>
+      <input type="text" name="name" placeholder="Last Name" id="name"><br/>
+      <label>Gender: </label>
+      <input type="radio" name="gender" id="ma" value="male"> Male
+      <input type="radio" name="gender" id="ma" value="female"> Female
+      <input type="radio" name="gender" id="ma" value="other"> Other<br/>
+      <label>College Name: </label><br/>
+      <input type="text" name="college" placeholder="College Name" id="name"><br/>
+      <label>Email Id: </label><br/>
+      <input type="email" name="emailid" placeholder="Enter Your Email Id" id="name"><br/>
+      <label>Contact Number: </label><br/>
+      <input type="number" name="mnum" placeholder="Enter your Mobile Number:" id="name"><br/>
+      <label>Password: </label><br/>
+      <input type="password" name="password" placeholder="Enter your password" id="name"><br/>
+      <label>Confirm Password: </label><br/>
+      <input type="password" name="password" placeholder="Confirm your password" id="name"><br/>
+      <input type="checkbox" id="ch"><span id="ch">I Agree T&C.</span><br/>
+      <button type="submit" id="sub" class="s-up-btn">Sign Up</button>
 
-  <!-- Text input-->
-  <div class="form-group">
-    <label class="col-md-12 control-label" for="name"></label>  
-    <div class="col-md-12">
-    <input id="name" name="name" placeholder="Enter your name" class="form-control input-md" type="text">
-      
     </div>
-  </div>
-  
-  <!-- Text input-->
-  <div class="form-group">
-    <label class="col-md-12 control-label" for="gender"></label>
-    <div class="col-md-12">
-      <select id="gender" name="gender" placeholder="Enter your gender" class="form-control input-md" >
-     <option value="Male">Select Gender</option>
-    <option value="M">Male</option>
-    <option value="F">Female</option> </select>
-    </div>
-  </div>
-  
-  <!-- Text input-->
-  <div class="form-group">
-    <label class="col-md-12 control-label" for="name"></label>  
-    <div class="col-md-12">
-    <input id="college" name="college" placeholder="Enter your college name" class="form-control input-md" type="text">
-      
-    </div>
-  </div>
-  
-  
-  <!-- Text input-->
-  <div class="form-group">
-    <label class="col-md-12 control-label title1" for="email"></label>
-    <div class="col-md-12">
-      <input id="email" name="email" placeholder="Enter your email-id" class="form-control input-md" type="email">
-      
-    </div>
-  </div>
-  
-  <!-- Text input-->
-  <div class="form-group">
-    <label class="col-md-12 control-label" for="mob"></label>  
-    <div class="col-md-12">
-    <input id="mob" name="mob" placeholder="Enter your mobile number" class="form-control input-md" type="number">
-      
-    </div>
-  </div>
-  
-  
-  <!-- Text input-->
-  <div class="form-group">
-    <label class="col-md-12 control-label" for="password"></label>
-    <div class="col-md-12">
-      <input id="password" name="password" placeholder="Enter your password" class="form-control input-md" type="password">
-      
-    </div>
-  </div>
-  
-  <div class="form-group">
-    <label class="col-md-12control-label" for="cpassword"></label>
-    <div class="col-md-12">
-      <input id="cpassword" name="cpassword" placeholder="Conform Password" class="form-control input-md" type="password">
-      
-    </div>
-  </div>
+
 </body>
 </html>
